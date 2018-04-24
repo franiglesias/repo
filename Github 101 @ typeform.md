@@ -89,4 +89,25 @@ git commit -m "This commits does something important"
 
 ## Git remote
 
+```bash
+git remote add origin https://github.com/franiglesias/repo.git
+```
+
+## Git pull
+
+Get the changes, and merge into the local
+
+```bash
+git pull
+```
+
+## Git fetch
+
+Get the changes, but no merge them
+
+```bash
+gut fetch
+```
+
+## Conflicts
 
