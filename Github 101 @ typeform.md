@@ -167,4 +167,3 @@ If we try to push, git will tell us how to set the upstream and track the remote
 ## Rebase
 
 Rebase is a way to merge the changes of a branch into another one keeping the chronological order of commits.
-
