@@ -1,6 +1,6 @@
 #Github 101 @Typeform
 
-## Create a Local Repoitory
+## Create a Local Repository
 
 1. Move to the desired folder
 2. Init the repository
@@ -131,7 +131,7 @@ git branch "Name_of_the_branch"
 git checkout "Name_of_the_branch"
 
 
-git checkout -b "Name_of_the_branch"
+git checkout -tb "Name_of_the_branch" // new branch and set remote up-stream
 ```
 Existing changes will be moved to the new branch leaving the original untouched.
 
@@ -155,6 +155,14 @@ If we try to push, git will tell us how to set the upstream and track the remote
 
 ### Merge branches to master (or another branch)
 
-Introducing Pull Request
+(Introducing Pull Request)
 
-Open a pull request
+1. Open a pull request
+2. Merge changes (when approved)
+3. Delete the branch after merge
+4. (should delete the local branch also)
+
+## Rebase
+
+Rebase is a way to merge the changes of a branch into another one keeping the history chronological order of commits.
+
