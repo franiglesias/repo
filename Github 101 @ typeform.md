@@ -85,6 +85,8 @@ Changes to be committed:
 ```bash
 git commit // will open the default $EDITOR to include a message
 git commit -m "This commits does something important"
+
+git commit -a -m "Commit message" // Add and commit in one step
 ```
 
 ## Git remote
@@ -164,5 +166,5 @@ If we try to push, git will tell us how to set the upstream and track the remote
 
 ## Rebase
 
-Rebase is a way to merge the changes of a branch into another one keeping the history chronological order of commits.
+Rebase is a way to merge the changes of a branch into another one keeping the chronological order of commits.
 
