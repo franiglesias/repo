@@ -111,3 +111,21 @@ gut fetch
 
 ## Conflicts
 
+1. Resolve conflicts
+2. Add changed files
+3. Commit the changes
+4. Push to remote
+
+## Branches
+
+### Create a new local branch
+
+```bash
+git branch "Name_of_the_branch"
+git checkout "Name_of_the_branch"
+
+
+git checkout -b "Name_of_the_branch"
+```
+Existing changes will be moved to the new branch leaving the original untouched
+
