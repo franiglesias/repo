@@ -49,7 +49,7 @@ Clone an existing repo to local so you can work with that project. Changes will 
 
 Fork: copy a repo to your own space, so your changes are separated from those on the original repo.
 
-## Track new files
+## Track new files and changes
 
 You need to add files to be tracked by git.
 
@@ -80,7 +80,7 @@ Changes to be committed:
 	new file:   myfile.md
 ```
 
-## Commit the changes
+## Commiting the changes
 
 ```bash
 git commit // will open the default $EDITOR to include a message
@@ -93,7 +93,13 @@ git commit -m "This commits does something important"
 git remote add origin https://github.com/franiglesias/repo.git
 ```
 
-## Git pull
+### Sending changes to remote
+
+```bash
+git push
+```
+
+### Git pull
 
 Get the changes, and merge into the local
 
@@ -101,7 +107,7 @@ Get the changes, and merge into the local
 git pull
 ```
 
-## Git fetch
+### Git fetch
 
 Get the changes, but no merge them
 
@@ -127,5 +133,23 @@ git checkout "Name_of_the_branch"
 
 git checkout -b "Name_of_the_branch"
 ```
-Existing changes will be moved to the new branch leaving the original untouched
+Existing changes will be moved to the new branch leaving the original untouched.
+
+Each branch can evolve separately and even you can make branches from a branch.
+
+Always will be a master branch.
+
+### Move to a branch
+
+```bash
+git checkout target_branch
+
+git checkout master
+```
+
+### Push changes in a branch to remote
+
+We need to track upstream branch.
+
+If we try to push, git will tell us how to set the upstream and track the remote branch.
 
