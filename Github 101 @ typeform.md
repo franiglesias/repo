@@ -60,6 +60,33 @@ git add path/to/file.ext  // this file
 git add path/to/folder. // the contents of this folder
 ```
 
+If we check for status we'll see the files added to the stage
+
+```bash
+git status
+```
+
+Result
+
+```
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   Github 101 @ typeform.md
+	new file:   myfile.md
+```
+
+## Commit the changes
+
+```bash
+git commit // will open the default $EDITOR to include a message
+git commit -m "This commits does something important"
+```
+
 ## Git remote
 
 
