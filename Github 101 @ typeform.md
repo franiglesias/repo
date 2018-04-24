@@ -149,6 +149,18 @@ git checkout target_branch
 git checkout master
 ```
 
+### Remove a local branch
+
+```bash
+git branch -D target_branch
+```
+
+### See all local branches
+
+```bash
+git branch
+```
+
 ### Push changes in a branch to remote
 
 We need to track upstream branch.
@@ -168,3 +180,6 @@ If we try to push, git will tell us how to set the upstream and track the remote
 
 Rebase is a way to merge the changes of a branch into another one keeping the chronological order of commits.
 
+```bash
+git pull --rebase origin master // branch we want to merge into current
+```
